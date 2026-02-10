@@ -71,6 +71,28 @@ const Portifolio: React.FC = () => {
                     <p className={style.p}>Projeto para Psicologa.</p>
                     <a href="https://psicologaleticianeris.com/" target="_blank" rel="noopener noreferrer" className={style.link}>Visite o site</a>
                 </div>
+
+{/* Carrossel do Projeto 2 */}
+                <div className={style.project}>
+                    <h2 className={style.h2}>Site - Neuroseends</h2>
+                    <Slider {...settings} className={style.slider}>
+                        <div>
+                            <img src="/portifolio/Nerusoseends/Captura de tela 2026-02-09 211249.png" alt="Projeto 2 - Imagem 1" className={style.projectImage} />
+                        </div>
+                        <div>
+                            <img src="/portifolio/Nerusoseends/Captura de tela 2026-02-09 211254.png" alt="Projeto 2 - Imagem 2" className={style.projectImage} />
+                        </div>
+                        <div>
+                            <img src="/portifolio/Nerusoseends/Captura de tela 2026-02-09 211302.png" alt="Projeto 2 - Imagem 3" className={style.projectImage} />
+                        </div>
+                        <div>
+                            <img src="/portifolio/Nerusoseends/Captura de tela 2026-02-09 211321.png" alt="Projeto 2 - Imagem 4" className={style.projectImage} />
+                        </div>
+                    </Slider>
+                    <p className={style.p}>Projeto para Neuroseends.</p>
+                    <a href="https://psicologaleticianeris.com/" target="_blank" rel="noopener noreferrer" className={style.link}>Visite o site</a>
+                </div>
+
             </div>
         </section>
     );
